@@ -1,0 +1,28 @@
+{
+    "compileOnSave": true,
+    "buildOnSave": true,
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es6",
+        "lib": [
+            "es2015",
+            "es2017",
+            "dom"
+        ],
+        "removeComments": true,
+        "allowSyntheticDefaultImports": false,
+        "jsx": "react",
+        "allowJs": true,
+        "baseUrl": "./",
+        "paths": {
+            "components/*": [
+                "src/components/*"
+            ],
+        }
+    }
+}
